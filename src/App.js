@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
 
 const App = () => {
   return (
-    <div >
-          The basic empty template
+    <div>
+      <h1>Ahmet Erturk</h1>
+      Constructing Portfolio
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
