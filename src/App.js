@@ -5,6 +5,7 @@ const App = () => {
     <div>
       <h1>Ahmet Erturk</h1>
       Constructing Portfolio...
+      Coming Soon... 
     </div>
   );
 };
