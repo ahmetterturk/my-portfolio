@@ -1,6 +1,6 @@
 import React from 'react';
 import './Footer.css';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 function Footer() {
   return (
@@ -15,6 +15,7 @@ function Footer() {
             <a
               className="social-icon-link twitter"
               href="https://www.linkedin.com/in/erturkahmet/"
+              rel="noreferrer"
               target="_blank"
               aria-label="LinkedIn"
             >
@@ -23,6 +24,7 @@ function Footer() {
             <a
               className="social-icon-link instagram"
               href="https://github.com/ahmetterturk"
+              rel="noreferrer"
               target="_blank"
               aria-label="Instagram"
             >
@@ -30,7 +32,8 @@ function Footer() {
             </a>
             <a
               className="social-icon-link twitter"
-              href="#"
+              href="https://twitter.com/ahmtertt"
+              rel="noreferrer"
               target="_blank"
               aria-label="Twitter"
             >
