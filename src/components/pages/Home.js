@@ -3,7 +3,7 @@ import '../../App.css';
 import Cards from '../Cards/Cards';
 import Footer from '../Footer/Footer';
 import HeroSection from '../HeroSection/HeroSection';
-import Projects from '../Projects/Projects';
+// import Projects from '../Projects/Projects';
 // import Services from '../Services';
 
 const Home = () => {
