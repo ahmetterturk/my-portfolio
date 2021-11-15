@@ -10,41 +10,47 @@ function Cards() {
         <div className="cards__wrapper">
           {/* <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
-              alt="Waterfall"
-              text="Explore the hidden waterfall deep inside the Amazon Jungle"
-              label="Adventure"
-              path="/services"
-            />
-            <CardItem
-              src="images/img-2.jpg"
-              alt="Bali"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
-              path="/services"
+              src="images/img-3.jpg"
+              alt="RightFit"
+              title="RightFit"
+              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
+              label="Mystery"
+              github="link"
+              deployed="link"
             />
           </ul> */}
           <ul className="cards__items">
             <CardItem
-              src="images/img-3.jpg"
-              alt="Atlantic"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
-              path="/services"
+              src="images/gym.jpeg"
+              alt="RightFit"
+              title="RightFit"
+              text="Two-sided, fitness platform marketplace application, built with Ruby on Rails."
+              github="https://github.com/ahmetterturk/RightFit"
+              deployed="https://rightfit-rails.herokuapp.com/"
             />
             <CardItem
-              src="images/img-4.jpg"
+              src="images/data.jpg"
+              alt="RightFit"
+              title="Covid-19 Live Data"
+              text="Node.js application that extracts live data from an external API and visualises it."
+              github="https://github.com/ahmetterturk/covid-19-tracker-app"
+              deployed="https://trackcovid19countries.herokuapp.com/"
+            />
+            <CardItem
+              src="images/movies.jpg"
               alt="Football"
-              text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
-              path="/products"
+              title="MovieVerse"
+              text="Ruby command line interface application that represents a video retail store."
+              github="https://github.com/ahmetterturk/MovieVerse-Terminal_Applicaion"
+              // deployed="link"
             />
             <CardItem
-              src="images/img-8.jpg"
+              src="images/breaking.jpeg"
               alt="Sahara"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
-              path="/sign-up"
+              title="Broken Bad"
+              text="A React-based application for everything about the show Breaking Bad."
+              github="https://github.com/ahmetterturk/ca-hackathon"
+              deployed="https://broken-bad.netlify.app/"
             />
           </ul>
         </div>

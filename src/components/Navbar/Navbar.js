@@ -17,35 +17,30 @@ const Navbar = () => {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <a href="/" className="navbar-logo">
             Ahmet Erturk
-          </Link>
+          </a>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'}></i>
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
-                About
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link
-                to="/projects"
+              <a
+                href="https://github.com/ahmetterturk"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Projects
-              </Link>
+                Github
+              </a>
             </li>
             <li className="nav-item">
-              <Link
-                to="/contact"
+              <a
+                href="https://www.linkedin.com/in/erturkahmet/"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Contact
-              </Link>
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>
