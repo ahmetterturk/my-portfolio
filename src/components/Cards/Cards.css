@@ -1,6 +1,11 @@
 .cards {
-  padding: 4rem;
+  /* padding-top: 300px; */
+  padding: 5rem;
   background: #fff;
+  height: 100vh;
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
 }
 
 h1 {
